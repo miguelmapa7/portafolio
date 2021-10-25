@@ -1,0 +1,110 @@
+
+body {  
+  background-image: url('fondo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.ima{
+  background-image: url('laboral.jpg');
+}
+
+.nombre {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.alinear{
+  text-align: center;
+}
+
+img {
+  border-radius: 70%;
+}
+
+
+
+
+.contenedor {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+
+.contenedor .contenedor_izq {
+  width: 280px;
+  background: #0bb5f4;
+  padding: 10px;
+}
+
+.contenedor .contenedor_izq .contenedor_foto {
+  width: 100%;
+  height: 280px;
+
+}
+
+.contenedor .contenedor_izq .contenedor_foto img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.contenedor .contenedor_izq .contenedor_info {
+  padding: 0 25px;
+}
+
+.contenedor .contenedor_titulo {
+  margin-bottom: 20px;
+}
+
+.contenedor .contenedor_izq .contenedor_titulo2 {
+  color: #b1eaff;
+}
+
+table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+
+}
+
+td {
+  text-align: center;
+}
+
+
+
+/*********************************/
+
+.contenedor_der {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+
+.contenedor2 {
+  background: #fff;
+  padding: 25px;
+  width: 800px; 
+}
+
+/*******************/
+
+form {padding: 20px;}
+
+label {margin: 15px 0px; clear: both; display: block;}
+
+input {padding: 4px; border: solid 1px #262626;}
+
+::placeholder, option, value {color: #31a3dd; font-weight: bold;}
+
+*:focus {border-color: #31a3dd; }
+
+input[type="submit"] {padding: 10px 20px; text-transform: uppercase; cursor: pointer; background-color: #31a3dd; border: solid 1px #ededed;}
+
+input[type="submit"]:hover {background-color: #82C8EA;}
+
+
+
